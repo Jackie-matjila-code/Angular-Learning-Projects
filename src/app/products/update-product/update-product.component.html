@@ -1,0 +1,91 @@
+<form mb-8 (ngSubmit)="updateProducts(updateProduct)" #updateProduct="ngForm">
+  <div class="form-group">
+    <label>Product Name</label>
+    <input
+      type="text"
+      name="productName"
+      class="form-control"
+      [(ngModel)]="productDetails.productName"
+      placeholder="Product Name"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>Category ID</label>
+    <input
+      type="text"
+      name="categoryId"
+      class="form-control"
+      placeholder="Category ID"
+      [(ngModel)]="productDetails.categoryId"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>Description</label>
+    <input
+      type="text"
+      name="description"
+      class="form-control"
+      placeholder="Description"
+      [(ngModel)]="productDetails.categoryId"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>Product Color</label>
+    <input
+      type="text"
+      name="color"
+      class="form-control"
+      placeholder="Product Color"
+      [(ngModel)]="productDetails.color"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>Product Price</label>
+    <input
+      type="text"
+      name="price"
+      class="form-control"
+      placeholder="Product Price"
+      [(ngModel)]="productDetails.price"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>Product rating</label>
+    <input
+      type="text"
+      name="rating"
+      class="form-control"
+      placeholder="Product rating"
+      [(ngModel)]="productDetails.rating"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>Product Reviews</label>
+    <input
+      type="text"
+      name="reviews"
+      class="form-control"
+      placeholder="Product Reviews"
+      [(ngModel)]="productDetails.reviews"
+      ngModel
+    />
+  </div>
+  <div class="form-group">
+    <label>is Available</label>
+    <input
+      type="text"
+      name="isAvailable"
+      class="form-control"
+      placeholder="is Available"
+      [(ngModel)]="productDetails.isAvailable"
+      ngModel
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">Update</button>
+</form>

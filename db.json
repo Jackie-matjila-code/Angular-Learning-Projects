@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "samsung"
+    },
+    {
+      "id": 2,
+      "name": "samsung"
+    },
+    {
+      "id": 3,
+      "name": "samsung"
+    },
+    {
+      "id": 4,
+      "name": "samsung"
+    },
+    {
+      "id": 5,
+      "name": "samsung"
+    },
+    {
+      "product_name": "Headups",
+      "category_id": "1",
+      "description": "1",
+      "color": "purple",
+      "product_price": "1500",
+      "product_rating": "5",
+      "product_review": "10",
+      "is_available": "1",
+      "id": 6
+    },
+    {
+      "product_name": "Samsungsinh",
+      "category_id": "1",
+      "description": "1",
+      "color": "purple",
+      "product_price": "15008",
+      "product_rating": "5",
+      "product_review": "10",
+      "is_available": "1",
+      "id": 7
+    },
+    {
+      "productName": "Update",
+      "description": "1",
+      "rating": "5",
+      "price": "30000",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "10",
+      "color": "Blue",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Electronics"
+    },
+    {
+      "id": 2,
+      "categoryName": "Mobile"
+    },
+    {
+      "id": 3,
+      "categoryName": "Tablets"
+    }
+  ]
+}
