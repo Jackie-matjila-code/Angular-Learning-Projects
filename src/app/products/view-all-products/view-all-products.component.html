@@ -12,10 +12,10 @@
             alt="..."
           />
           <!-- Product details-->
-          <div class="card-body p-4">
+          <div class="card-body p-4" routerLink="product/{{ product.id }}">
             <div class="text-center">
               <!-- Product name-->
-              <h5 class="fw-bolder" routerLink="product/{{ product.id }}">
+              <h5 class="fw-bolder">
                 {{ product.productName }}
               </h5>
               <!-- Product price-->

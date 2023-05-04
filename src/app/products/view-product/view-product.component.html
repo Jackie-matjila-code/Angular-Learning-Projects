@@ -18,6 +18,7 @@
       <div class="text-center">
         <!-- Product name-->
         <h5 class="fw-bolder">{{ productDetails.productName }}</h5>
+
         <!-- Product reviews-->
         <div class="d-flex justify-content-center small text-warning mb-2">
           <div class="bi-star-fill"></div>
@@ -29,6 +30,9 @@
 
         <a href="products/update-product/{{ productDetails.id }}"
           >Update Product</a
+        >|
+        <a href="products/delete-product/{{ productDetails.id }}"
+          >Delete Product</a
         >
         <!-- Product price-->
 

@@ -1,37 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "samsung"
-    },
-    {
-      "id": 2,
-      "name": "samsung"
-    },
-    {
-      "id": 3,
-      "name": "samsung"
-    },
-    {
-      "id": 4,
-      "name": "samsung"
-    },
-    {
-      "id": 5,
-      "name": "samsung"
-    },
-    {
-      "product_name": "Headups",
-      "category_id": "1",
-      "description": "1",
-      "color": "purple",
-      "product_price": "1500",
-      "product_rating": "5",
-      "product_review": "10",
-      "is_available": "1",
-      "id": 6
-    },
-    {
       "product_name": "Samsungsinh",
       "category_id": "1",
       "description": "1",
@@ -43,15 +12,100 @@
       "id": 7
     },
     {
-      "productName": "Update",
-      "description": "1",
+      "productName": "Samsung",
+      "categoryId": "1",
+      "description": "This is admin 44",
       "rating": "5",
-      "price": "30000",
+      "price": "1000",
       "productImage": "",
       "isAvailable": "1",
       "reviews": "10",
       "color": "Blue",
       "id": 8
+    },
+    {
+      "productName": "Samsung",
+      "categoryId": "1",
+      "description": "This is admin 44",
+      "rating": "5",
+      "price": "1000",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "10",
+      "color": "Blue",
+      "id": 9
+    },
+    {
+      "productName": "Samsung",
+      "categoryId": "1",
+      "description": "This is admin 44",
+      "rating": "5",
+      "price": "1000",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "10",
+      "color": "Blue",
+      "id": 10
+    },
+    {
+      "productName": "Headphone",
+      "categoryId": "1",
+      "description": "This is admin 44",
+      "rating": "5",
+      "price": "150",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "10",
+      "color": "Blue",
+      "id": 11
+    },
+    {
+      "productName": "Samsung",
+      "categoryId": "4",
+      "description": "This is new samsung",
+      "rating": "5",
+      "price": "1900",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "10",
+      "color": "purple",
+      "id": 12
+    },
+    {
+      "productName": "Samsung",
+      "categoryId": "4",
+      "description": "This is new samsung",
+      "rating": "5",
+      "price": "1900",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "10",
+      "color": "purple",
+      "id": 13
+    },
+    {
+      "productName": "Samsungs",
+      "categoryId": "4",
+      "description": "This is admin 44",
+      "rating": "5",
+      "price": "1300",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "",
+      "color": "purple",
+      "id": 14
+    },
+    {
+      "productName": "Speakers",
+      "categoryId": "1",
+      "description": "This is admin 44",
+      "rating": "5",
+      "price": "1000",
+      "productImage": "",
+      "isAvailable": "1",
+      "reviews": "",
+      "color": "Blue",
+      "id": 15
     }
   ],
   "categories": [
